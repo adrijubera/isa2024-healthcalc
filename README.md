@@ -29,4 +29,4 @@ Health calculator
 </body>
 </html>
 
-<img src="/Users/adrianajubera/Desktop/ISA/P1/isa2024-healthcalc/CapturaResultadosTest.png" alt="Captura de pantalla resultado test">
+![Captura resultados test](https://github.com/adrijubera/isa2024-healthcalc/blob/main/CapturaResultadosTest.png)
