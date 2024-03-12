@@ -30,3 +30,4 @@ Health calculator
 </html>
 
 ![Captura resultados test](https://github.com/adrijubera/isa2024-healthcalc/blob/main/CapturaResultadosTest.png)
+![Captura registro](https://github.com/adrijubera/isa2024-healthcalc/blob/main/CapturaRegistro.png)
