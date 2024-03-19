@@ -1,0 +1,105 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2580
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 HelveticaNeue-Medium;\f1\fnil\fcharset0 HelveticaNeue;}
+{\colortbl;\red255\green255\blue255;\red12\green12\blue12;\red255\green255\blue255;}
+{\*\expandedcolortbl;;\cssrgb\c5098\c5098\c5098;\cssrgb\c100000\c100000\c100000;}
+{\*\listtable{\list\listtemplateid1\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{none\}.}{\leveltext\leveltemplateid1\'01.;}{\levelnumbers;}\fi-360\li720\lin720 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid2\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li1440\lin1440 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{none\}.}{\leveltext\leveltemplateid3\'01.;}{\levelnumbers;}\fi-360\li2160\lin2160 }{\listname ;}\listid1}}
+{\*\listoverridetable{\listoverride\listid1\listoverridecount0\ls1}}
+\paperw11900\paperh16840\margl1440\margr1440\vieww23420\viewh11280\viewkind0
+\deftab720
+\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
+\ls1\ilvl0
+\f0\b\fs32 \cf2 \cb3 {\listtext	.	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Nombre del caso de uso
+\f1\b0 : Calcular peso ideal\cb1 \uc0\u8232 \
+\ls1\ilvl0
+\f0\b \cb3 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	.	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Actor principal
+\f1\b0 : Usuario\cb1 \uc0\u8232 \
+\ls1\ilvl0
+\f0\b \cb3 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	.	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 \'c1mbito
+\f1\b0 : Sistema de la calculadora de salud\cb1 \uc0\u8232 \
+\ls1\ilvl0
+\f0\b \cb3 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	.	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Nivel
+\f1\b0 : Nivel del usuario\cb1 \uc0\u8232 \
+\ls1\ilvl0
+\f0\b \cb3 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	.	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Stakeholders e intereses
+\f1\b0 :\cb1 \
+\pard\tx940\tx1440\pardeftab720\li1440\fi-1440\partightenfactor0
+\ls1\ilvl1\cf2 \cb3 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Usuario: Interesado en conocer su peso ideal para mantener una buena salud.\cb1 \
+\ls1\ilvl1\cb3 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Desarrolladores del sistema: Interesados en implementar y mantener la funcionalidad de c\'e1lculo del peso ideal de manera precisa y eficiente.\cb1 \
+\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
+\ls1\ilvl0
+\f0\b \cf2 \cb3 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	.	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Precondiciones
+\f1\b0 :\cb1 \
+\pard\tx940\tx1440\pardeftab720\li1440\fi-1440\partightenfactor0
+\ls1\ilvl1\cf2 \cb3 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 El usuario debe proporcionar su altura y g\'e9nero.\cb1 \
+\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
+\ls1\ilvl0
+\f0\b \cf2 \cb3 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	.	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Garant\'edas m\'ednimas
+\f1\b0 :\cb1 \
+\pard\tx940\tx1440\pardeftab720\li1440\fi-1440\partightenfactor0
+\ls1\ilvl1\cf2 \cb3 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 El sistema debe ser capaz de calcular el peso ideal del usuario de acuerdo con una f\'f3rmula est\'e1ndar basada en la altura y el g\'e9nero.\cb1 \
+\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
+\ls1\ilvl0
+\f0\b \cf2 \cb3 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	.	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Garant\'eda de \'e9xito
+\f1\b0 :\cb1 \
+\pard\tx940\tx1440\pardeftab720\li1440\fi-1440\partightenfactor0
+\ls1\ilvl1\cf2 \cb3 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 El sistema debe proporcionar un resultado v\'e1lido y significativo del peso ideal del usuario.\cb1 \
+\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
+\ls1\ilvl0
+\f0\b \cf2 \cb3 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	.	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Escenario principal
+\f1\b0 :\cb1 \
+\pard\tx940\tx1440\pardeftab720\li1440\fi-1440\partightenfactor0
+\ls1\ilvl1\cf2 \cb3 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	.	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 El usuario selecciona la opci\'f3n de "Calcular peso ideal" en la interfaz de la calculadora de salud.\cb1 \
+\ls1\ilvl1\cb3 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	.	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 El sistema solicita al usuario que ingrese su altura y g\'e9nero.\cb1 \
+\ls1\ilvl1\cb3 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	.	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 El usuario ingresa su altura y g\'e9nero en el sistema.\cb1 \
+\ls1\ilvl1\cb3 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	.	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 El sistema calcula el peso ideal del usuario utilizando una f\'f3rmula est\'e1ndar.\cb1 \
+\ls1\ilvl1\cb3 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	.	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 El sistema muestra el peso ideal calculado al usuario.\cb1 \
+\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
+\ls1\ilvl0
+\f0\b \cf2 \cb3 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	.	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Escenarios alternativos
+\f1\b0 :\cb1 \
+\pard\tx940\tx1440\pardeftab720\li1440\fi-1440\partightenfactor0
+\ls1\ilvl1\cf2 \cb3 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 El usuario no proporciona la altura o el g\'e9nero requeridos:\
+\pard\pardeftab720\partightenfactor0
+\ls1\ilvl2\cf2 El sistema muestra un mensaje de error indicando que la altura y el g\'e9nero son campos obligatorios.\cb1 \
+\ls1\ilvl2\cb3 El caso de uso termina.\cb1 \
+\pard\tx940\tx1440\pardeftab720\li1440\fi-1440\partightenfactor0
+\ls1\ilvl1\cf2 \cb3 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 El sistema no puede calcular el peso ideal debido a una falla t\'e9cnica:\
+\pard\pardeftab720\partightenfactor0
+\ls1\ilvl2\cf2 El sistema muestra un mensaje de error indicando que no se puede calcular el peso ideal en este momento debido a un problema t\'e9cnico.\cb1 \
+\ls1\ilvl2\cb3 El caso de uso termina.\cb1 \
+\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
+\ls1\ilvl0
+\f0\b \cf2 \cb3 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	.	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Extensiones
+\f1\b0 :\cb1 \
+\pard\tx940\tx1440\pardeftab720\li1440\fi-1440\partightenfactor0
+\ls1\ilvl1\cf2 \cb3 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 El usuario decide guardar el resultado del c\'e1lculo del peso ideal para su referencia futura:\
+\pard\pardeftab720\partightenfactor0
+\ls1\ilvl2\cf2 El sistema proporciona la opci\'f3n de guardar el resultado en un archivo o enviarlo por correo electr\'f3nico.\cb1 \
+\ls1\ilvl2\cb3 El usuario elige la opci\'f3n deseada.\cb1 \
+\ls1\ilvl2\cb3 El sistema guarda el resultado o env\'eda el correo electr\'f3nico seg\'fan la elecci\'f3n del usuario.\cb1 \
+\ls1\ilvl2\cb3 El caso de uso termina.\cb1 \
+}
