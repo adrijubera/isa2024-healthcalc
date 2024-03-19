@@ -1,4 +1,6 @@
 # isa2024-healtcalc
+
+## Práctica 1
 Health calculator
 
 <html>
@@ -31,3 +33,7 @@ Health calculator
 
 ![Captura resultados test](https://github.com/adrijubera/isa2024-healthcalc/blob/main/CapturaResultadosTest.png)
 ![Captura registro](https://github.com/adrijubera/isa2024-healthcalc/blob/main/CapturaRegistro.png)
+
+
+## Práctica 2
+![Diagrama de Casos de Uso](https://github.com/adrijubera/isa2024-healthcalc/blob/practica2/doc/DiagramaCasosUso.png)
