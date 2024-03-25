@@ -1,0 +1,49 @@
+Historia de Usuario 1: 
+Cálculo del peso ideal de una persona
+Como usuario interesado en mantener un peso saludable,
+Quiero poder calcular mi peso ideal,
+Para tener una referencia de mi peso objetivo.
+
+Criterios de Aceptación:
+
+Escenario 1: 
+Calcular peso ideal con éxito
+Dado que soy un usuario de la calculadora de salud
+Cuando ingreso mi altura y género
+Entonces el sistema calcula mi peso ideal correctamente
+
+Escenario 2: 
+Falta de información requerida
+Dado que soy un usuario de la calculadora de salud
+Cuando intento calcular mi peso ideal sin ingresar mi altura y género
+Entonces el sistema me muestra un mensaje de error indicando que la altura y el género son obligatorios
+
+
+
+
+
+Historia de Usuario 2: 
+Cálculo de la tasa metabólica basal de una persona
+Como usuario interesado en conocer mi gasto calórico diario basal,
+Quiero poder calcular mi tasa metabólica basal (TMB),
+Para entender cuántas calorías necesito consumir para mantener mi peso actual.
+
+
+
+Criterios de Aceptación:
+
+Escenario 1: 
+Calcular TMB con éxito
+Dado que soy un usuario de la calculadora de salud
+Cuando ingreso mi peso, altura y género
+Entonces el sistema calcula mi tasa metabólica basal correctamente
+
+Escenario 2: 
+Falta de información requerida
+Dado que soy un usuario de la calculadora de salud
+Cuando intento calcular mi TMB sin ingresar mi peso, altura y género
+Entonces el sistema me muestra un mensaje de error indicando que estos campos son obligatorios
+
+
+
+
