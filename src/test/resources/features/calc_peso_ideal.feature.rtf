@@ -1,0 +1,19 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2580
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 Feature: C\'e1lculo del peso ideal\
+\
+  Scenario: Calcular peso ideal con \'e9xito\
+    Given que soy un usuario de la calculadora de salud\
+    When ingreso mi altura "160" y g\'e9nero "Femenino"\
+    Then el sistema calcula mi peso ideal correctamente "56.00"\
+\
+  Scenario: Falta de informaci\'f3n requerida\
+    Given que soy un usuario de la calculadora de salud\
+    When intento calcular mi peso ideal sin ingresar mi altura y g\'e9nero\
+    Then el sistema muestra un mensaje de error indicando que la altura y el g\'e9nero son obligatorios\
+}
