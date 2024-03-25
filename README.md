@@ -38,3 +38,51 @@ Health calculator
 
 ## Práctica 2
 ![Diagrama de Casos de Uso](https://github.com/adrijubera/isa2024-healthcalc/blob/practica2/doc/DiagramaCasosUso.png)
+
+
+
+## Práctica 3
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Especificación de Historias de Usuario</title>
+</head>
+<body>
+
+<h2>Historia de Usuario 1: Cálculo del peso ideal de una persona</h2>
+<p>Como usuario interesado en mantener un peso saludable,</p>
+<p>Quiero poder calcular mi peso ideal,</p>
+<p>Para tener una referencia de mi peso objetivo.</p>
+
+<h3>Criterios de Aceptación:</h3>
+
+<h4>Escenario 1: Calcular peso ideal con éxito</h4>
+<p>Dado que soy un usuario de la calculadora de salud</p>
+<p>Cuando ingreso mi altura y género</p>
+<p>Entonces el sistema calcula mi peso ideal correctamente</p>
+
+<h4>Escenario 2: Falta de información requerida</h4>
+<p>Dado que soy un usuario de la calculadora de salud</p>
+<p>Cuando intento calcular mi peso ideal sin ingresar mi altura y género</p>
+<p>Entonces el sistema me muestra un mensaje de error indicando que la altura y el género son obligatorios</p>
+
+<h2>Historia de Usuario 2: Cálculo de la tasa metabólica basal de una persona</h2>
+<p>Como usuario interesado en conocer mi gasto calórico diario basal,</p>
+<p>Quiero poder calcular mi tasa metabólica basal (TMB),</p>
+<p>Para entender cuántas calorías necesito consumir para mantener mi peso actual.</p>
+
+<h3>Criterios de Aceptación:</h3>
+
+<h4>Escenario 1: Calcular TMB con éxito</h4>
+<p>Dado que soy un usuario de la calculadora de salud</p>
+<p>Cuando ingreso mi peso, altura y género</p>
+<p>Entonces el sistema calcula mi tasa metabólica basal correctamente</p>
+
+<h4>Escenario 2: Falta de información requerida</h4>
+<p>Dado que soy un usuario de la calculadora de salud</p>
+<p>Cuando intento calcular mi TMB sin ingresar mi peso, altura y género</p>
+<p>Entonces el sistema me muestra un mensaje de error indicando que estos campos son obligatorios</p>
+
+</body>
+</html>
