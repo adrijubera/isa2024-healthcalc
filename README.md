@@ -97,13 +97,13 @@ Health calculator
 ## Práctica 6: Patrones de diseño
 
 Patrón singular:
-![Singular](https://github.com/adrijubera/isa2024-healthcalc/blob/practica6/design_patterns/PatronSingular.pdf)
+![Singular](https://github.com/adrijubera/isa2024-healthcalc/blob/practica6/design_patterns/PatronSingular.png)
 
 Patrón adapter:
-![Adapter](https://github.com/adrijubera/isa2024-healthcalc/blob/practica6/design_patterns/PatronAdapter.pdf)
+![Adapter](https://github.com/adrijubera/isa2024-healthcalc/blob/practica6/design_patterns/PatronAdapter.png)
 
 Patrón Observer:
-![Observer](https://github.com/adrijubera/isa2024-healthcalc/blob/practica6/design_patterns/PatronObserver.pdf)
+![Observer](https://github.com/adrijubera/isa2024-healthcalc/blob/practica6/design_patterns/PatronObserver.png)
 
 Patrón Adapter:
-![Adapter](https://github.com/adrijubera/isa2024-healthcalc/blob/practica6/design_patterns/DiagramaClasesUML.pdf)
+![Adapter](https://github.com/adrijubera/isa2024-healthcalc/blob/practica6/design_patterns/DiagramaClasesUML.png)
