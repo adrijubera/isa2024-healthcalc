@@ -1,7 +1,9 @@
 package CalculadoraSalud;
 
 public class HealthCalculator {
-    public double calcularPesoIdeal(double altura, char genero) throws Exception {
+	public double calcularPesoIdeal(HealthParameters parameters) throws Exception {
+        double altura = parameters.getHeight();
+        char genero = parameters.getGender();
         if (genero == 'm') {
             return altura - 100 - (altura - 150) / 4.0;
         } else if (genero == 'w') {
@@ -11,7 +13,11 @@ public class HealthCalculator {
         }
     }
 
-    public double calcularTMB(double peso, double altura, char genero, int edad) throws Exception {
+    public double calcularTMB(HealthParameters parameters) throws Exception {
+        double altura = parameters.getHeight();
+        double peso = parameters.getWeight();
+        char genero = parameters.getGender();
+        int edad = parameters.getAge();
         if (genero == 'm') {
             return 10 * peso + 6.25 * altura - 5 * edad + 5;
         } else if (genero == 'w') {

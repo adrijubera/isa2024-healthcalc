@@ -18,9 +18,10 @@ public class Controlador {
         public void actionPerformed(ActionEvent e) {
             double altura = Double.parseDouble(vista.getAlturaPesoIdeal().getText());
             char genero = vista.getBotonHombrePesoIdeal().isSelected() ? 'm' : 'w';
+            HealthParameters parameters = new HealthParameters(altura, 0, genero, 0);
 
             try {
-                double pesoIdeal = healthCalculator.calcularPesoIdeal(altura, genero);
+                double pesoIdeal = healthCalculator.calcularPesoIdeal(parameters);
                 vista.getResultadoPesoIdeal().setText(String.valueOf(pesoIdeal));
             } catch (Exception ex) {
                 vista.getResultadoPesoIdeal().setText("Error: " + ex.getMessage());
@@ -34,9 +35,10 @@ public class Controlador {
             double peso = Double.parseDouble(vista.getPesoTMB().getText());
             int edad = Integer.parseInt(vista.getEdadTMB().getText());
             char genero = vista.getBotonHombreTMB().isSelected() ? 'm' : 'w';
+            HealthParameters parameters = new HealthParameters(altura, peso, genero, edad);
 
             try {
-                double tmb = healthCalculator.calcularTMB(peso, altura, genero, edad);
+                double tmb = healthCalculator.calcularTMB(parameters);
                 vista.getResultadoTMB().setText(String.valueOf(tmb));
             } catch (Exception ex) {
                 vista.getResultadoTMB().setText("Error: " + ex.getMessage());
