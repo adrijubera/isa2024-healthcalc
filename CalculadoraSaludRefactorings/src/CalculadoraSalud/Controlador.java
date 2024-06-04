@@ -4,9 +4,11 @@ import java.awt.event.ActionListener;
 
 public class Controlador {
     private Vista vista;
+    private HealthCalculator healthCalculator;
 
     public Controlador(Vista vista) {
         this.vista = vista;
+        this.healthCalculator = new HealthCalculator();
 
         this.vista.getCalcularPesoIdealButton().addActionListener(new CalcularPesoIdealListener());
         this.vista.getCalcularTMBButton().addActionListener(new CalcularTMBListener());
@@ -18,7 +20,7 @@ public class Controlador {
             char genero = vista.getBotonHombrePesoIdeal().isSelected() ? 'm' : 'w';
 
             try {
-                double pesoIdeal = Modelo.calcularPesoIdeal(altura, genero);
+                double pesoIdeal = healthCalculator.calcularPesoIdeal(altura, genero);
                 vista.getResultadoPesoIdeal().setText(String.valueOf(pesoIdeal));
             } catch (Exception ex) {
                 vista.getResultadoPesoIdeal().setText("Error: " + ex.getMessage());
@@ -34,7 +36,7 @@ public class Controlador {
             char genero = vista.getBotonHombreTMB().isSelected() ? 'm' : 'w';
 
             try {
-                double tmb = Modelo.calcularTMB(peso, altura, genero, edad);
+                double tmb = healthCalculator.calcularTMB(peso, altura, genero, edad);
                 vista.getResultadoTMB().setText(String.valueOf(tmb));
             } catch (Exception ex) {
                 vista.getResultadoTMB().setText("Error: " + ex.getMessage());
