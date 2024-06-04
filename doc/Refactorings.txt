@@ -19,4 +19,9 @@
 5) 4 cambios manuales
 
 
+1) Método con muchos parámetros
+2) Introduce Parameter Object
+3) Method Refactoring
+4) Se creó una nueva clase HealthParameters para agrupar los parámetros relacionados con la salud en un solo objeto. Esto simplifica los métodos que necesitaban muchos parámetros relacionados y mejora la cohesión del código.
+5) 5 cambios manuales
 
