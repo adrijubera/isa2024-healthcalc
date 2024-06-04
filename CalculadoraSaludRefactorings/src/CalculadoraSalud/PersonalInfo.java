@@ -1,8 +1,8 @@
 package CalculadoraSalud;
 
 public interface PersonalInfo {
-    float weight();
-    float height();
-    Gender gender();
-    int age();
+    float getWeight();
+    float getHeight();
+    Gender getGender();
+    int getAge();
 }
