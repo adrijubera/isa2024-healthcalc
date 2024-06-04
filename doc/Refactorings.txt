@@ -4,3 +4,10 @@
 4) Dividí la interfaz Person en dos interfaces más específicas: PersonalInfo y HealthInfo. Esto separa las responsabilidades relacionadas con la información personal y la salud en interfaces distintas, mejorando la cohesión y facilitando la implementación de las clases que las implementan.
 5) 3 cambios manuales, para las 3 clases
 
+
+1) Nombres de método poco descriptivos o incoherentes.
+2) Rename methods
+3) Method refactoring
+4) Se han renombrado los métodos en las interfaces PersonalInfo y HealthInfo para que reflejen mejor su propósito específico. Por ejemplo, weight() se ha renombrado a getWeight() y calculateIdealWeight() se ha renombrado a calculateIdealBodyWeight(), entre otros.
+5) 4 cambios manuales 
+
