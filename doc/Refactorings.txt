@@ -25,3 +25,9 @@
 4) Se creó una nueva clase HealthParameters para agrupar los parámetros relacionados con la salud en un solo objeto. Esto simplifica los métodos que necesitaban muchos parámetros relacionados y mejora la cohesión del código.
 5) 5 cambios manuales
 
+
+1) Uso excesivo de lógica condicional basada en género en la clase HealthCalculator
+2) Replace Conditional with Polymorphism
+3) Class refactoring
+4) Reemplazamos la lógica condicional que determinaba el género en la clase HealthCalculator con el uso de polimorfismo. Creamos una jerarquía de clases (GenderCalculator y subclases) para manejar las diferencias en los cálculos según el género.
+5) Se hicieron varios cambios manuales en las clases Controlador, HealthCalculator, MaleCalculator, FemaleCalculator, GenderCalculator, y Vista. Estos cambios incluyeron la creación de nuevas clases, la definición de métodos abstractos en la clase base GenderCalculator, y la actualización de las referencias en la clase Controlador para usar la nueva jerarquía de clases. En total, se hicieron alrededor de 10 cambios manuales.
