@@ -1,4 +1,5 @@
 package CalculadoraSalud;
+
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
@@ -8,7 +9,8 @@ public class Controlador {
 
     public Controlador(Vista vista) {
         this.vista = vista;
-        this.healthCalculator = new HealthCalculator();
+        GenderCalculator calculator = vista.getBotonHombrePesoIdeal().isSelected() ? new MaleCalculator() : new FemaleCalculator();
+        this.healthCalculator = new HealthCalculator(calculator);
 
         this.vista.getCalcularPesoIdealButton().addActionListener(new CalcularPesoIdealListener());
         this.vista.getCalcularTMBButton().addActionListener(new CalcularTMBListener());
