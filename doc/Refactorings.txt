@@ -1,0 +1,6 @@
+1) Interfaz con demasiadas responsabilidades
+2) Split Interface
+3) Class refactoring
+4) Dividí la interfaz Person en dos interfaces más específicas: PersonalInfo y HealthInfo. Esto separa las responsabilidades relacionadas con la información personal y la salud en interfaces distintas, mejorando la cohesión y facilitando la implementación de las clases que las implementan.
+5) 3 cambios manuales, para las 3 clases
+
