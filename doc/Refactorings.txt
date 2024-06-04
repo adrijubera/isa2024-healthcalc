@@ -11,3 +11,12 @@
 4) Se han renombrado los métodos en las interfaces PersonalInfo y HealthInfo para que reflejen mejor su propósito específico. Por ejemplo, weight() se ha renombrado a getWeight() y calculateIdealWeight() se ha renombrado a calculateIdealBodyWeight(), entre otros.
 5) 4 cambios manuales 
 
+
+1) Funcionalidad de múltiples responsabilidades en una misma clase.
+2) Extract class
+3) Class refactoring
+4) Se ha extraído la funcionalidad relacionada con el cálculo de la salud de la clase Controlador a una nueva clase llamada HealthCalculator. Esto mejora la cohesión y la modularidad del código al separar las responsabilidades de cada clase.
+5) 4 cambios manuales
+
+
+
